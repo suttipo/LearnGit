@@ -2,3 +2,6 @@ First time we can create ripo(as same as folder) with command prompt
 git init   (it create ripository in local folder)
 git add . (add all file)
 git commit -m "message"
+git remote add origin https://github.com/suttipo/LearnGit.git (add github repository)
+git branch -m master main (change branch master to main)
+git push -u origin main (push file to github)
