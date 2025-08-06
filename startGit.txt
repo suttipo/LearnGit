@@ -5,3 +5,4 @@ git commit -m "message"
 git remote add origin https://github.com/suttipo/LearnGit.git (add github repository)
 git branch -m master main (change branch master to main)
 git push -u origin main (push file to github)
+**warning in editor you must save file every time you edit it before you add and commit.
