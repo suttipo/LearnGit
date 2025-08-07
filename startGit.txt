@@ -6,3 +6,32 @@ git remote add origin https://github.com/suttipo/LearnGit.git (add github reposi
 git branch -m master main (change branch master to main)
 git push -u origin main (push file to github)
 **warning in editor you must save file every time you edit it before you add and commit.
+
+To list all local branches and identify the current branch:
+
+git branch (This command lists all local branches in your repository. 
+The current branch is indicated by an asterisk (*) next to its name. 
+To list all remote branches.)
+
+To list all remote branches.
+
+git branch -r (This command displays all branches found in your configured 
+remote repositories.)
+
+To list both local and remote branches:
+
+ git branch -a (This command provides a comprehensive list, showing both your 
+ local branches and all remote branches.)
+
+To show only the name of the current branch (Git 2.22+):
+
+git branch --show-current (This command outputs only the name of the currently checked-out
+branch, which is useful for scripting. It outputs nothing if you are in a detached
+HEAD state.)
+
+To view detailed information about a remote repository, including its branches:
+
+git remote show <remote_name> (Replace <remote_name> with the name of your remote 
+(e.g., origin). This command provides details about the remote, including its URL,
+fetch and push URLs, and the branches it contains.)
+
